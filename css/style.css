@@ -1,0 +1,42 @@
+body, html, ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  border: 1px solid #e5e5e5;
+  border-right: none;
+  border-left: none;
+
+  height: 58px;
+}
+
+h1 {
+  padding-left: 50px;
+}
+
+li {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 20px;
+  border-right: 1px solid #e5e5e5;
+
+}
+
+li:hover {
+  background: #3fa95f;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+img {
+    height: 300px;
+    display: block;
+    padding: 100px;
+    padding-bottom: 0px;
+}
